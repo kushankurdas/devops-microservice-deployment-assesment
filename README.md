@@ -1,21 +1,47 @@
-Skills To Look For.
+# Scrut DevOps Assignment
 
-1. Patience
-2. Debugging Skill.
-3. AWS - VPC, IAM
-4. CI/CD
-5. IAC - Terraform/ Pulumi / AWS CLOUDFORMATION L3
+![](http://turnoff.us/image/en/before-devops-after-devops.png)
 
-- Fresher exp (0 to 1 yrs)
+## Introduction
 
-Versioning Tool (GIT & GIT REMOTE)
-Containerzation
-Deployment of the Container
+This repository holds the Scrut DevOps assignment. In this project you will find a folder that has a simple Microservice Node.js Web-server. 
 
-- Intermediate exp (2 to 4 yrs)
+### Node.js Web Server
 
-1. Versioning Tool (GIT & GIT REMOTE)
-2. Containerzation
-3. Provisioning Cluster on AWS Using Terraform (Good to have / Addons)
-4. CI/CD Integration deployment
-5. Deployment of the Container/ Webserver on AWS
+Node.js Web Server is a simple stateless service that serves a simple HTTP message. You can deploy as many replicas of this service as you like.
+
+## The assignment
+
+For the assignment we would like you to do the following:
+
+#### SDE 1
+
+- [x] Containerize the microservices via Docker
+- [x] Deploy the container using any of the orchertrator tool i.e AWS ECS or Kuberneetes.
+
+
+
+#### SDE 2
+
+- [x] Containerize the microservices via Docker
+- [ ] Provision an Orchestrator EKS OR ECS cluster your AWS 
+- [x] Good to have ( Bonus points )
+    - Implement Iac using Terraform or any other alternatives tools.
+    - Implement CI/CD using Github action or any other alternatives tools.
+
+- [x] Deploy the web-server on the Orchestrator cluster
+    - Make sure the app is reachable from the public internet
+
+### Optional additions
+
+- [ ] The app has some metrics that can be collected and monitored
+
+## Questions
+
+If you have any questions about the assignment, the project setup or you're simply stuck, feel free to contact us at <a href='mailto:kushankur@scrut.io
+'>kushankur@scrut.io
+</a>. Please do not hesitate for this! We're always ready to help.
+
+Finally, you will present your process, technical decisions and outcome to us. Looking forward to it!
+
+Good luck with the assignment!
